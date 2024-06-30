@@ -1,4 +1,4 @@
-// LoginScreen.tsx
+// app/screens/LoginScreen.tsx
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text } from 'react-native';
 
@@ -39,7 +39,7 @@ const LoginScreen: React.FC<LoginScreenProps> = ({ setIsLoggedIn }) => {
       <Button title="Login" onPress={handleLogin} />
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
